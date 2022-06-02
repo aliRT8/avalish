@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #fff !important;
+    background-color: #ff6309 !important;
+    /* overflow: hidden; */
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: 300;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+.nav-link:hover {
+    color: #ff6309 !important;
+    transition: all .8s ease;
+}
+
+.bars {
+    color: #fff !important;
+}
+
+
+.box {
+    position: absolute;
+    right: 50px;
+    text-align: center;
+}
+
+.input {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: 4px solid #fff !important;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    font-size: 26px;
+    color: #fff !important;
+    outline: none;
+    transition: .5s;
+}
+
+.box:hover input {
+    width: 200px;
+    background: #272133;
+    border-radius: 10px;
+}
+
+
+.box i {
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #fff;
+    transition: .2s;
+
+}
+
+@media (max-width: 999px) {
+    .box {
+        display: none;
+    }
+
+    .nav-link {
+        font-size: 20px;
+    }
+
+    #home {
+        background-position: center;
+        background-size: cover;
+        background: url(../img/intro.png);
+    }
+
+    .asl {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content {
+        margin-top: 30px;
+    }
+    .akhar{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        height: 50vh;
+        text-align: center;
+    }
+
+    .btn-alak {
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .btn-alak span {
+        font-size: 20px;
+    }
+
+    .content2 h1 {
+        font-family: sans-serif;
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: 1px;
+        font-size: 35px;
+    }
+
+    .content2 p {
+        font-size: 20px;
+    }
+
+
+    .cardha {
+        height: 496px;
+        background-color: #2c2c2c !important;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 1;
+    }
+
+    .aks {
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 2;
+    }
+
+    .cardha h1 {
+        z-index: 3;
+        position: absolute;
+        right: 50%;
+        top: 50%;
+    }
+
+    .asl2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        margin: auto;
+    }
+
+
+    #promo {
+        height: 100vh;
+        background-color: #2c2c2c !important;
+        width: 100%;
+    }
+
+
+    .alaki {
+        height: 1100px;
+        background-color: #ff6309 !important;
+    }
+
+    .content3 {
+        height: 300px;
+        width: 100%;
+        padding-top: 100px;
+    }
+
+    .card3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .card2 {
+        margin: 20px;
+    }
+
+    .alaki2 {
+        height: 770px;
+        background-color: #2c2c2c !important;
+    }
+
+    /* .salam3{
+        height: 200px;
+        background-color: royalblue;
+    } */
+
+    .contet6{
+        background-color: rebeccapurple;
+    }
+
+    .contn{
+        display: none;
+    }
+
+    .read{
+        display: none;
+    }
+
+    .tes{
+        height: 30vh;
+    }
+/* 
+    .pedaret{
+        padding-top: 300px;
+        padding-top: 100px;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        background-color: rebeccapurple;
+    }
+     */
+.pedaret{
+    padding-top: 400px;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    
+}
+
+}
+
+.btn-serch {
+    background-color: #ff6309 !important;
+    width: 50px;
+    text-align: center;
+}
+
+
+
+#home {
+    height: 100vh;
+    width: 100%;
+    background-color: #ff6309 !important;
+    background: url(../img/intro.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+    height: 100vh;
+    flex-direction: column;
+}
+
+.content h1 {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: #fff !important;
+    font-weight: 800;
+}
+
+.content p {
+    font-size: 20px;
+}
+
+
+
+@media (min-width: 999px) {
+    .btn-alak {
+        height: 64px;
+        width: 321px;
+        text-transform: uppercase;
+    }
+
+    .alaki2 {
+        display: none;
+    }
+
+    .btn-alak span {
+        font-size: 30px;
+    }
+
+    .content2 h1 {
+        font-family: sans-serif;
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: 1px;
+        font-size: 50px;
+    }
+
+    .content2 p {
+        font-size: 20px;
+    }
+
+    .alaki {
+        display: none;
+    }
+
+    .cardha {
+        height: 496px;
+        background-color: #2c2c2c !important;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 1;
+    }
+
+    .aks {
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 2;
+    }
+
+    .cardha h1 {
+        z-index: 3;
+        position: absolute;
+        right: 50%;
+        top: 50%;
+    }
+
+    .asl2 {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .asl {
+        display: none;
+    }
+
+    .content5 {
+        padding-top: 130px;
+    }
+
+    #promo {
+        height: 100vh;
+        background-color: #2c2c2c !important;
+        width: 100%;
+    }
+
+    .content3 {
+        height: 300px;
+        width: 100%;
+
+        padding-top: 150px;
+    }
+
+    .card3 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .read{
+        width: 300px;   
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+        
+    }
+    
+.pedaret{
+    /* padding-top: 100px; */
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    
+    
+    }
+
+    .akhar{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        height: 50vh;
+        text-align: center;
+    }
+    
+
+}
+
+
+@media (min-height: 1000px) {
+    .alaki2 {
+        display: none;
+    }
+
+    .alaki {
+        height: 600px;
+    }
+
+    .read{
+        display: none;
+    }
+}
+
+
+#product {
+    height: 100vh;
+    width: 100%;
+    background: url('../img/prodoct1.png');
+    background-repeat: no-repeat;
+}
+
+.content2 {
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card {
+    background: #2c2c2c !important;
+    text-align: center;
+}
+
+.card h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.content3 h1 {
+    text-transform: uppercase;
+}
+
+.content3 {
+    text-align: center;
+    margin: auto;
+}
+
+.card2 {
+    background-color: #ff6309 !important;
+    margin-top: 20px;
+}
+
+.card2 i {
+    font-size: 70px;
+    padding: 20px;
+}
+
+.card2 h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.card2 button {
+    width: 220px;
+}
+
+
+#about {
+    height: 100vh;
+    width: 100%;
+}
+
+#ab1 {
+
+    height: 100vh;
+    width: 100%;
+    background-color: tomato;
+}
+
+/* .salam2{
+    height: 100;
+    
+    background: url('../img/per4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+
+.salama {}
+
+.asl3 {
+    background-color: red;
+    position: relative;
+}
+
+.salam2 {
+    background-image: url('../img/per4.png');
+    height: 100vh;
+}
+
+.salam3 {
+    background-color: #ff6309 !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.salam3 h1 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.salam3 p {
+    font-size: 20px;
+}
+
+#ab2{
+    
+    background-color: #ff6309 !important;
+    height: 100%;
+}
+
+
+.bh4{
+    background-image: url('../img/per5.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+
+}
+
+.contet6{
+    margin-top: 40px;
+    background-color: seashell;
+}
+
+#her{
+    height: 100vh;
+    background-color: royalblue;
+}
+
+
+.aks4{
+    background: url('../img/per5.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+.tes{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tes h1{
+    font-weight: 700;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.tes p{
+    font-size: 20px;
+}
+
+#Pricing{
+    height: 100vh;
+    background-color: #2c2c2c !important;
+}
+
+.pedaret h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 50px;
+}
